@@ -1,0 +1,9 @@
+name = "Bun Cache"
+version = "1.0.0"
+description = "Bun package manager install cache. Safe to delete; packages are re-downloaded on next install."
+author = "freespace"
+platforms = ["macos", "linux"]
+
+[[targets]]
+path = "~/.bun/install/cache"
+description = "Bun cached package downloads"

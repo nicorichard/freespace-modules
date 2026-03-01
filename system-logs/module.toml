@@ -1,0 +1,21 @@
+name = "macOS Logs & Diagnostics"
+version = "1.0.0"
+description = "System logs, crash reports, and diagnostic data. Safe to delete; new logs are created as needed."
+author = "freespace"
+platforms = ["macos"]
+
+[[targets]]
+path = "~/Library/Logs/*"
+description = "Application and system logs"
+
+[[targets]]
+path = "~/Library/DiagnosticReports"
+description = "User-level crash and hang reports"
+
+[[targets]]
+path = "/Library/Logs/DiagnosticReports"
+description = "System-level crash and hang reports"
+
+[[targets]]
+path = "~/Library/Saved Application State"
+description = "Saved window positions and state for apps"

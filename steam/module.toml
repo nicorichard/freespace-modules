@@ -1,0 +1,37 @@
+name = "Steam Caches"
+version = "1.0.0"
+description = "Steam client caches, shader caches, and temp downloads. Safe to delete; rebuilt on next launch."
+author = "freespace"
+platforms = ["macos", "linux"]
+
+[[targets]]
+path = "~/Library/Application Support/Steam/appcache"
+description = "Steam app metadata cache (macOS)"
+
+[[targets]]
+path = "~/Library/Application Support/Steam/depotcache"
+description = "Steam depot cache (macOS)"
+
+[[targets]]
+path = "~/Library/Application Support/Steam/logs"
+description = "Steam client logs (macOS)"
+
+[[targets]]
+path = "~/Library/Application Support/Steam/steamapps/shadercache"
+description = "Steam shader cache (macOS)"
+
+[[targets]]
+path = "~/Library/Application Support/Steam/steamapps/temp"
+description = "Steam temporary download files (macOS)"
+
+[[targets]]
+path = "~/.steam/steam/appcache"
+description = "Steam app metadata cache (Linux)"
+
+[[targets]]
+path = "~/.steam/steam/depotcache"
+description = "Steam depot cache (Linux)"
+
+[[targets]]
+path = "~/.steam/steam/logs"
+description = "Steam client logs (Linux)"

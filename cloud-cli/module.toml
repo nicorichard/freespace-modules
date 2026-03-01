@@ -1,0 +1,21 @@
+name = "Cloud CLI Caches"
+version = "1.0.0"
+description = "Cached data from cloud provider CLI tools. Safe to delete; caches are rebuilt on next command."
+author = "freespace"
+platforms = ["macos", "linux"]
+
+[[targets]]
+path = "~/.kube/cache"
+description = "kubectl API discovery and HTTP cache"
+
+[[targets]]
+path = "~/.aws/cli/cache"
+description = "AWS CLI credential and API cache"
+
+[[targets]]
+path = "~/.config/gcloud/logs"
+description = "Google Cloud CLI logs"
+
+[[targets]]
+path = "~/.azure/logs"
+description = "Azure CLI logs"

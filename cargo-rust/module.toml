@@ -1,0 +1,21 @@
+name = "Rust & Cargo Caches"
+version = "1.0.0"
+description = "Cargo registry cache and Rustup downloads. Safe to delete; crates are re-downloaded on next build."
+author = "freespace"
+platforms = ["macos", "linux"]
+
+[[targets]]
+path = "~/.cargo/registry/cache"
+description = "Downloaded crate archives"
+
+[[targets]]
+path = "~/.cargo/git"
+description = "Cargo git dependency checkouts"
+
+[[targets]]
+path = "~/.rustup/downloads"
+description = "Rustup toolchain downloads"
+
+[[targets]]
+path = "~/.rustup/tmp"
+description = "Rustup temporary files"

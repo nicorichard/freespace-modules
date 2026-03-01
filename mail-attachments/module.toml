@@ -1,0 +1,9 @@
+name = "Mail Downloads"
+version = "1.0.0"
+description = "Attachments viewed in Apple Mail. Safe to delete; re-downloaded from mail server when opened again."
+author = "freespace"
+platforms = ["macos"]
+
+[[targets]]
+path = "~/Library/Containers/com.apple.mail/Data/Library/Mail Downloads"
+description = "Mail attachment downloads"

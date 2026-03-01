@@ -1,0 +1,25 @@
+name = "Xcode Extras"
+version = "1.0.0"
+description = "Xcode archives, simulator caches, and device logs. Archives may contain App Store submissions — review before deleting."
+author = "freespace"
+platforms = ["macos"]
+
+[[targets]]
+path = "~/Library/Developer/Xcode/Archives"
+description = "Xcode build archives (may contain App Store submissions)"
+
+[[targets]]
+path = "~/Library/Developer/CoreSimulator/Caches"
+description = "iOS/watchOS/tvOS simulator caches"
+
+[[targets]]
+path = "~/Library/Developer/Xcode/iOS Device Logs"
+description = "Logs from connected iOS devices"
+
+[[targets]]
+path = "~/Library/Developer/Xcode/watchOS Device Logs"
+description = "Logs from connected watchOS devices"
+
+[[targets]]
+path = "~/Library/Caches/CocoaPods"
+description = "CocoaPods spec and download cache"

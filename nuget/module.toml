@@ -1,0 +1,9 @@
+name = "NuGet Cache"
+version = "1.0.0"
+description = ".NET NuGet package cache. Safe to delete; packages are re-downloaded on next restore."
+author = "freespace"
+platforms = ["macos", "linux"]
+
+[[targets]]
+path = "~/.nuget/packages"
+description = "NuGet global package cache"

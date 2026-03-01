@@ -1,0 +1,17 @@
+name = "Android Development Caches"
+version = "1.0.0"
+description = "Android SDK caches and emulator images. Safe to delete; re-downloaded when needed."
+author = "freespace"
+platforms = ["macos", "linux"]
+
+[[targets]]
+path = "~/.android/cache"
+description = "Android SDK manager cache"
+
+[[targets]]
+path = "~/.android/build-cache"
+description = "Android build cache"
+
+[[targets]]
+path = "~/Library/Android/sdk/system-images"
+description = "Android emulator system images (macOS)"

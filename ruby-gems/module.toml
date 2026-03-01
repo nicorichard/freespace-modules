@@ -1,0 +1,9 @@
+name = "Ruby Gem Cache"
+version = "1.0.0"
+description = "Ruby gem installations and cache. Safe to delete; gems are re-installed on next bundle install."
+author = "freespace"
+platforms = ["macos", "linux"]
+
+[[targets]]
+path = "~/.gem"
+description = "User-installed Ruby gems"

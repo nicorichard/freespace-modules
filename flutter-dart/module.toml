@@ -1,0 +1,17 @@
+name = "Flutter & Dart Caches"
+version = "1.0.0"
+description = "Dart pub package cache and Flutter engine artifacts. Safe to delete; re-downloaded on next pub get."
+author = "freespace"
+platforms = ["macos", "linux"]
+
+[[targets]]
+path = "~/.pub-cache/hosted"
+description = "Dart pub hosted package cache"
+
+[[targets]]
+path = "~/.pub-cache/git"
+description = "Dart pub git dependency cache"
+
+[[targets]]
+path = "~/Library/Caches/flutter_engine"
+description = "Flutter engine build artifacts (macOS)"

@@ -1,0 +1,13 @@
+name = "JetBrains IDE Logs"
+version = "1.0.0"
+description = "JetBrains IDE log files. Safe to delete; new logs are created on next IDE launch."
+author = "freespace"
+platforms = ["macos", "linux"]
+
+[[targets]]
+path = "~/Library/Logs/JetBrains"
+description = "JetBrains IDE logs (macOS)"
+
+[[targets]]
+path = "~/.local/share/JetBrains/*/log"
+description = "JetBrains IDE logs (Linux)"

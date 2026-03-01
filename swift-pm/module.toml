@@ -1,0 +1,13 @@
+name = "Swift Package Manager Cache"
+version = "1.0.0"
+description = "Swift Package Manager build and repository cache. Safe to delete; packages are re-resolved on next build."
+author = "freespace"
+platforms = ["macos", "linux"]
+
+[[targets]]
+path = "~/.cache/org.swift.swiftpm"
+description = "Swift PM repository and manifest cache"
+
+[[targets]]
+path = "~/Library/org.swift.swiftpm"
+description = "Swift PM security and collections data (macOS)"

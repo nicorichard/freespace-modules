@@ -1,0 +1,17 @@
+name = "Go Caches"
+version = "1.0.0"
+description = "Go module downloads and build cache. Safe to delete; modules are re-downloaded and rebuilt on next build."
+author = "freespace"
+platforms = ["macos", "linux"]
+
+[[targets]]
+path = "~/go/pkg/mod/cache"
+description = "Go module download cache"
+
+[[targets]]
+path = "~/Library/Caches/go-build"
+description = "Go build cache (macOS)"
+
+[[targets]]
+path = "~/.cache/go-build"
+description = "Go build cache (Linux)"

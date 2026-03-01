@@ -1,0 +1,17 @@
+name = "SBT & Ivy Caches"
+version = "1.0.0"
+description = "Scala SBT and Apache Ivy dependency caches. Safe to delete; dependencies are re-downloaded on next build."
+author = "freespace"
+platforms = ["macos", "linux"]
+
+[[targets]]
+path = "~/.sbt/boot"
+description = "SBT bootstrap compiler downloads"
+
+[[targets]]
+path = "~/.sbt/preloaded"
+description = "SBT preloaded library cache"
+
+[[targets]]
+path = "~/.ivy2/cache"
+description = "Apache Ivy dependency cache"

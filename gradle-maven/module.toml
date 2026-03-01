@@ -1,0 +1,21 @@
+name = "Gradle & Maven Caches"
+version = "1.0.0"
+description = "Java/Kotlin build tool caches. Safe to delete; dependencies are re-downloaded on next build."
+author = "freespace"
+platforms = ["macos", "linux"]
+
+[[targets]]
+path = "~/.gradle/caches"
+description = "Gradle dependency and build caches"
+
+[[targets]]
+path = "~/.gradle/wrapper"
+description = "Gradle wrapper distribution downloads"
+
+[[targets]]
+path = "~/.gradle/daemon"
+description = "Gradle daemon logs and registry"
+
+[[targets]]
+path = "~/.m2/repository"
+description = "Maven local repository cache"
