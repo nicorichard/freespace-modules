@@ -9,5 +9,5 @@ path = "~/.cache/org.swift.swiftpm"
 description = "Swift PM repository and manifest cache"
 
 [[targets]]
-path = "~/Library/org.swift.swiftpm"
+path = "~/Library/Caches/org.swift.swiftpm"
 description = "Swift PM security and collections data (macOS)"
