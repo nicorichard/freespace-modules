@@ -1,3 +1,4 @@
+id = "xcode-extras"
 name = "Xcode Extras"
 version = "1.0.0"
 description = "Xcode archives, simulator caches, and device logs. Archives may contain App Store submissions — review before deleting."

@@ -1,3 +1,4 @@
+id = "xcode-derived-data"
 name = "Xcode Derived Data"
 version = "1.0.0"
 description = "Xcode build artifacts and derived data. Safe to delete; Xcode regenerates on next build."

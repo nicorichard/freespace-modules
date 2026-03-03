@@ -1,3 +1,4 @@
+id = "system-logs"
 name = "macOS Logs & Diagnostics"
 version = "1.0.0"
 description = "System logs, crash reports, and diagnostic data. Safe to delete; new logs are created as needed."

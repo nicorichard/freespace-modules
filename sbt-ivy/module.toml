@@ -1,3 +1,4 @@
+id = "sbt-ivy"
 name = "SBT & Ivy Caches"
 version = "1.0.0"
 description = "Scala SBT and Apache Ivy dependency caches. Safe to delete; dependencies are re-downloaded on next build."

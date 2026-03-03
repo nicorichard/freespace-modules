@@ -1,3 +1,4 @@
+id = "go-cache"
 name = "Go Caches"
 version = "1.0.0"
 description = "Go module downloads and build cache. Safe to delete; modules are re-downloaded and rebuilt on next build."

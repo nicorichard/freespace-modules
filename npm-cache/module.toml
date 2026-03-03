@@ -1,3 +1,4 @@
+id = "npm-cache"
 name = "Node Package Caches"
 version = "1.0.0"
 description = "Cached packages from npm, Yarn, and pnpm. Safe to delete; packages are re-downloaded on next install."

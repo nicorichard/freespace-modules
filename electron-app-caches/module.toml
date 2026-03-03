@@ -1,3 +1,4 @@
+id = "electron-app-caches"
 name = "Electron App Caches"
 version = "1.0.0"
 description = "Caches from Electron-based apps stored outside ~/Library/Caches. Safe to delete; rebuilt on next app launch."

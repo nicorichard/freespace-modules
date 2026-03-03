@@ -1,3 +1,4 @@
+id = "kotlin-native"
 name = "Kotlin/Native Cache"
 version = "1.0.0"
 description = "Kotlin/Native compiler cache and dependencies. Safe to delete; re-downloaded on next build."

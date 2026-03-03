@@ -1,3 +1,4 @@
+id = "flutter-dart"
 name = "Flutter & Dart Caches"
 version = "1.0.0"
 description = "Dart pub package cache and Flutter engine artifacts. Safe to delete; re-downloaded on next pub get."

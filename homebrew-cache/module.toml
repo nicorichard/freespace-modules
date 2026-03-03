@@ -1,3 +1,4 @@
+id = "homebrew-cache"
 name = "Homebrew Cache"
 version = "1.0.0"
 description = "Cached Homebrew downloads and bottles. Safe to delete; Homebrew re-downloads as needed."

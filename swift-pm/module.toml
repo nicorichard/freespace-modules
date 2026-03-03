@@ -1,3 +1,4 @@
+id = "swift-pm"
 name = "Swift Package Manager Cache"
 version = "1.0.0"
 description = "Swift Package Manager build and repository cache. Safe to delete; packages are re-resolved on next build."

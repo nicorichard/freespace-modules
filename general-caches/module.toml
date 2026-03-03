@@ -1,3 +1,4 @@
+id = "general-caches"
 name = "General Caches"
 version = "1.0.0"
 description = "General application caches. Usually safe to delete; applications rebuild caches as needed."

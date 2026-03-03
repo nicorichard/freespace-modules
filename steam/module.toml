@@ -1,3 +1,4 @@
+id = "steam"
 name = "Steam Caches"
 version = "1.0.0"
 description = "Steam client caches, shader caches, and temp downloads. Safe to delete; rebuilt on next launch."

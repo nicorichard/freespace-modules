@@ -1,3 +1,4 @@
+id = "gradle-maven"
 name = "Gradle & Maven Caches"
 version = "1.0.0"
 description = "Java/Kotlin build tool caches. Safe to delete; dependencies are re-downloaded on next build."

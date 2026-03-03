@@ -1,3 +1,4 @@
+id = "adobe-cache"
 name = "Adobe Caches"
 version = "1.0.0"
 description = "Adobe Creative Cloud media caches and logs. Safe to delete; caches are rebuilt when projects are opened."

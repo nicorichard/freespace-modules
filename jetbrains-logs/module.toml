@@ -1,3 +1,4 @@
+id = "jetbrains-logs"
 name = "JetBrains IDE Logs"
 version = "1.0.0"
 description = "JetBrains IDE log files. Safe to delete; new logs are created on next IDE launch."

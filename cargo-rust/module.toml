@@ -1,3 +1,4 @@
+id = "cargo-rust"
 name = "Rust & Cargo Caches"
 version = "1.0.0"
 description = "Cargo registry cache and Rustup downloads. Safe to delete; crates are re-downloaded on next build."

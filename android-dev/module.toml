@@ -1,3 +1,4 @@
+id = "android-dev"
 name = "Android Development Caches"
 version = "1.0.0"
 description = "Android SDK caches and emulator images. Safe to delete; re-downloaded when needed."

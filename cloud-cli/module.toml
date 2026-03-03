@@ -1,3 +1,4 @@
+id = "cloud-cli"
 name = "Cloud CLI Caches"
 version = "1.0.0"
 description = "Cached data from cloud provider CLI tools. Safe to delete; caches are rebuilt on next command."

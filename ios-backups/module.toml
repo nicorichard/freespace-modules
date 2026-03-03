@@ -1,3 +1,4 @@
+id = "ios-backups"
 name = "iOS Device Backups"
 version = "1.0.0"
 description = "Local iOS/iPadOS device backups. Can be very large. Review before deleting — these are your device backups."
