@@ -1,18 +1,30 @@
 id = "go-cache"
 name = "Go Caches"
 version = "1.0.0"
-description = "Go module downloads and build cache. Safe to delete; modules are re-downloaded and rebuilt on next build."
+description = "Go module downloads and build cache."
 author = "freespace"
 platforms = ["macos", "linux"]
 
 [[targets]]
 path = "~/go/pkg/mod/cache"
 description = "Go module download cache"
+risk = "safe"
+restore = "Re-downloaded on next `go build`"
 
 [[targets]]
 path = "~/Library/Caches/go-build"
 description = "Go build cache (macOS)"
+risk = "safe"
+restore = "Rebuilt on next `go build`"
 
 [[targets]]
 path = "~/.cache/go-build"
 description = "Go build cache (Linux)"
+risk = "safe"
+restore = "Rebuilt on next `go build`"
+
+[[targets]]
+path = "~/go/pkg/mod"
+description = "Go module source cache"
+risk = "low"
+restore = "Re-downloaded by `go mod download`"

@@ -1,14 +1,18 @@
 id = "general-caches"
 name = "General Caches"
 version = "1.0.0"
-description = "General application caches. Usually safe to delete; applications rebuild caches as needed."
+description = "General application caches."
 author = "freespace"
 platforms = ["macos", "linux"]
 
 [[targets]]
 path = "~/Library/Caches/*"
 description = "macOS application caches"
+risk = "safe"
+restore = "Rebuilt by applications as needed"
 
 [[targets]]
 path = "~/.cache/*"
 description = "XDG cache directory (Linux and some macOS apps)"
+risk = "safe"
+restore = "Rebuilt by applications as needed"

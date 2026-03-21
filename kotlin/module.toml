@@ -1,32 +1,44 @@
 id = "kotlin"
 name = "Kotlin Caches"
 version = "1.0.0"
-description = "Kotlin compiler and Kotlin/Native caches. Safe to delete; re-created on next build."
+description = "Kotlin compiler and Kotlin/Native caches"
 author = "freespace"
 platforms = ["macos", "linux"]
 
 [[targets]]
 path = "~/.konan/cache"
 description = "Kotlin/Native compilation cache"
+risk = "safe"
+restore = "Rebuilt on next Kotlin/Native build"
 
 [[targets]]
 path = "~/.konan/dependencies"
 description = "Kotlin/Native toolchain dependencies (LLVM, etc.)"
+risk = "safe"
+restore = "Re-downloaded on next build"
 
 [[targets]]
 path = "~/.konan/kotlin-native-prebuilt-*"
 description = "Prebuilt Kotlin/Native compiler distributions"
+risk = "safe"
+restore = "Re-downloaded on next build"
 
 [[targets]]
 path = "~/.kotlin/daemon"
 description = "Kotlin compiler daemon files"
 platforms = ["linux"]
+risk = "safe"
+restore = "Re-created on next build"
 
 [[targets]]
 path = "~/.kotlin/sessions"
 description = "Kotlin compiler session state files"
+risk = "safe"
+restore = "Re-created as needed"
 
 [[targets]]
 path = "~/Library/Application Support/kotlin/daemon"
 description = "Kotlin compiler daemon files"
 platforms = ["macos"]
+risk = "safe"
+restore = "Re-created on next build"

@@ -1,0 +1,12 @@
+id = "php"
+name = "PHP & Composer Cache"
+version = "1.0.0"
+description = "Composer package download cache."
+author = "freespace"
+platforms = ["macos", "linux"]
+
+[[targets]]
+path = "~/.composer/cache"
+description = "Composer package download cache"
+risk = "safe"
+restore = "Re-downloaded on next `composer install`"

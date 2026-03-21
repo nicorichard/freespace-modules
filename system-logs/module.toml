@@ -1,22 +1,30 @@
 id = "system-logs"
 name = "macOS Logs & Diagnostics"
 version = "1.0.0"
-description = "System logs, crash reports, and diagnostic data. Safe to delete; new logs are created as needed."
+description = "System logs, crash reports, and diagnostic data"
 author = "freespace"
 platforms = ["macos"]
 
 [[targets]]
 path = "~/Library/Logs/*"
 description = "Application and system logs"
+risk = "safe"
+restore = "Re-created as needed"
 
 [[targets]]
 path = "~/Library/DiagnosticReports"
 description = "User-level crash and hang reports"
+risk = "safe"
+restore = "Re-created as needed"
 
 [[targets]]
 path = "/Library/Logs/DiagnosticReports"
 description = "System-level crash and hang reports"
+risk = "safe"
+restore = "Re-created as needed"
 
 [[targets]]
 path = "~/Library/Saved Application State"
 description = "Saved window positions and state for apps"
+risk = "safe"
+restore = "Re-created on next app launch"

@@ -1,0 +1,20 @@
+id = "elixir"
+name = "Elixir & Mix Caches"
+version = "1.0.0"
+description = "Hex package cache and project-local Mix build artifacts."
+author = "freespace"
+platforms = ["macos", "linux"]
+
+[[targets]]
+path = "~/.hex/packages"
+description = "Hex package download cache"
+risk = "safe"
+restore = "Re-downloaded on next `mix deps.get`"
+
+[[targets]]
+path = "~/Library/Caches/mix/installs"
+description = "Mix archive and escript installs cache"
+risk = "safe"
+restore = "Re-downloaded on next install"
+platforms = ["macos"]
+

@@ -1,38 +1,60 @@
 id = "steam"
 name = "Steam Caches"
 version = "1.0.0"
-description = "Steam client caches, shader caches, and temp downloads. Safe to delete; rebuilt on next launch."
+description = "Steam client caches, shader caches, and temp downloads"
 author = "freespace"
 platforms = ["macos", "linux"]
 
 [[targets]]
 path = "~/Library/Application Support/Steam/appcache"
 description = "Steam app metadata cache (macOS)"
+risk = "safe"
+restore = "Rebuilt on next Steam launch"
 
 [[targets]]
 path = "~/Library/Application Support/Steam/depotcache"
 description = "Steam depot cache (macOS)"
+risk = "safe"
+restore = "Rebuilt on next Steam launch"
 
 [[targets]]
 path = "~/Library/Application Support/Steam/logs"
 description = "Steam client logs (macOS)"
+risk = "safe"
+restore = "Re-created as needed"
 
 [[targets]]
 path = "~/Library/Application Support/Steam/steamapps/shadercache"
 description = "Steam shader cache (macOS)"
+risk = "safe"
+restore = "Rebuilt on next game launch"
 
 [[targets]]
 path = "~/Library/Application Support/Steam/steamapps/temp"
 description = "Steam temporary download files (macOS)"
+risk = "safe"
+restore = "Re-created as needed"
+
+[[targets]]
+path = "~/Library/Application Support/Steam/steamapps/downloading"
+description = "Interrupted Steam download files"
+risk = "safe"
+restore = "Re-created as needed"
 
 [[targets]]
 path = "~/.steam/steam/appcache"
 description = "Steam app metadata cache (Linux)"
+risk = "safe"
+restore = "Rebuilt on next Steam launch"
 
 [[targets]]
 path = "~/.steam/steam/depotcache"
 description = "Steam depot cache (Linux)"
+risk = "safe"
+restore = "Rebuilt on next Steam launch"
 
 [[targets]]
 path = "~/.steam/steam/logs"
 description = "Steam client logs (Linux)"
+risk = "safe"
+restore = "Re-created as needed"

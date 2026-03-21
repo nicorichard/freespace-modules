@@ -1,26 +1,67 @@
 id = "xcode-extras"
 name = "Xcode Extras"
 version = "1.0.0"
-description = "Xcode archives, simulator caches, and device logs. Archives may contain App Store submissions — review before deleting."
+description = "Xcode archives, simulator caches, device logs, and dependency managers"
 author = "freespace"
 platforms = ["macos"]
 
 [[targets]]
 path = "~/Library/Developer/Xcode/Archives"
 description = "Xcode build archives (may contain App Store submissions)"
+risk = "medium"
+restore = "Review before deleting — may contain App Store submissions"
 
 [[targets]]
 path = "~/Library/Developer/CoreSimulator/Caches"
 description = "iOS/watchOS/tvOS simulator caches"
+risk = "safe"
+restore = "Rebuilt on next simulator launch"
 
 [[targets]]
 path = "~/Library/Developer/Xcode/iOS Device Logs"
 description = "Logs from connected iOS devices"
+risk = "safe"
+restore = "Re-created as needed"
 
 [[targets]]
 path = "~/Library/Developer/Xcode/watchOS Device Logs"
 description = "Logs from connected watchOS devices"
+risk = "safe"
+restore = "Re-created as needed"
 
 [[targets]]
 path = "~/Library/Caches/CocoaPods"
 description = "CocoaPods spec and download cache"
+risk = "safe"
+restore = "Re-downloaded on next `pod install`"
+
+[[targets]]
+path = "~/Library/Developer/CoreSimulator/Devices"
+description = "iOS/watchOS/tvOS simulator device images"
+risk = "medium"
+restore = "Re-downloaded from Apple; review active simulators first"
+
+[[targets]]
+path = "~/Library/Developer/CoreSimulator/Runtime"
+description = "Simulator runtime images"
+risk = "medium"
+restore = "Re-downloaded from Apple via Xcode"
+
+[[targets]]
+path = "~/Library/Developer/Xcode/UserData/IB Support"
+description = "Interface Builder support caches"
+risk = "safe"
+restore = "Rebuilt on next Xcode launch"
+
+[[targets]]
+path = "~/Library/Developer/Xcode/Products"
+description = "Old product archives"
+risk = "safe"
+restore = "Rebuilt on next archive"
+
+[[targets]]
+path = "**/Pods"
+description = "CocoaPods installed dependencies (project-local)"
+risk = "low"
+restore = "Run `pod install` in the project directory"
+

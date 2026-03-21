@@ -1,22 +1,54 @@
 id = "gradle-maven"
 name = "Gradle & Maven Caches"
 version = "1.0.0"
-description = "Java/Kotlin build tool caches. Safe to delete; dependencies are re-downloaded on next build."
+description = "Java/Kotlin build tool caches."
 author = "freespace"
 platforms = ["macos", "linux"]
 
 [[targets]]
 path = "~/.gradle/caches"
 description = "Gradle dependency and build caches"
+risk = "safe"
+restore = "Re-downloaded on next build"
 
 [[targets]]
 path = "~/.gradle/wrapper"
 description = "Gradle wrapper distribution downloads"
+risk = "safe"
+restore = "Re-downloaded on next build"
 
 [[targets]]
 path = "~/.gradle/daemon"
 description = "Gradle daemon logs and registry"
+risk = "safe"
+restore = "Re-created on next build"
 
 [[targets]]
 path = "~/.m2/repository"
 description = "Maven local repository cache"
+risk = "safe"
+restore = "Re-downloaded on next build"
+
+[[targets]]
+path = "~/.gradle/native"
+description = "Gradle native platform libraries"
+risk = "safe"
+restore = "Re-downloaded on next build"
+
+[[targets]]
+path = "~/.gradle/notifications"
+description = "Gradle update notifications"
+risk = "safe"
+restore = "Re-created as needed"
+
+[[targets]]
+path = "~/.gradle/build-scan-data"
+description = "Gradle build scan temporary data"
+risk = "safe"
+restore = "Re-created as needed"
+
+[[targets]]
+path = "**/.gradle"
+description = "Per-project Gradle cache and wrapper metadata"
+risk = "safe"
+restore = "Rebuilt on next `./gradlew build`"

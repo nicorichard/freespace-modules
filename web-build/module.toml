@@ -1,0 +1,102 @@
+id = "web-build"
+name = "Web Framework Build Caches"
+version = "1.0.0"
+description = "Project-local build output and caches from web frameworks."
+author = "freespace"
+platforms = ["macos", "linux"]
+
+[[targets]]
+path = "**/.next"
+description = "Next.js build output"
+risk = "safe"
+restore = "Rebuilt by `next build`"
+
+[[targets]]
+path = "**/.nuxt"
+description = "Nuxt.js build output"
+risk = "safe"
+restore = "Rebuilt by `nuxt build`"
+
+[[targets]]
+path = "**/.turbo"
+description = "Turborepo local cache"
+risk = "safe"
+restore = "Rebuilt on next `turbo` run"
+
+[[targets]]
+path = "**/.parcel-cache"
+description = "Parcel bundler cache"
+risk = "safe"
+restore = "Rebuilt on next `parcel build`"
+
+[[targets]]
+path = "**/.angular"
+description = "Angular CLI cache"
+risk = "safe"
+restore = "Rebuilt by `ng build`"
+
+[[targets]]
+path = "**/.vite"
+description = "Vite dev server cache"
+risk = "safe"
+restore = "Rebuilt on next `vite` run"
+
+[[targets]]
+path = "**/.svelte-kit"
+description = "SvelteKit build output"
+risk = "safe"
+restore = "Rebuilt by `svelte-kit build`"
+
+[[targets]]
+path = "**/.docusaurus"
+description = "Docusaurus build cache"
+risk = "safe"
+restore = "Rebuilt by `docusaurus build`"
+
+[[targets]]
+path = "**/.astro"
+description = "Astro build cache"
+risk = "safe"
+restore = "Rebuilt by `astro build`"
+
+[[targets]]
+path = "**/.swc"
+description = "SWC compiler cache"
+risk = "safe"
+restore = "Rebuilt on next build"
+
+[[targets]]
+path = "**/.nx"
+description = "Nx monorepo cache"
+risk = "safe"
+restore = "Rebuilt on next `nx` run"
+
+[[targets]]
+path = "**/.expo"
+description = "Expo project cache"
+risk = "safe"
+restore = "Rebuilt on next `expo start`"
+
+[[targets]]
+path = "**/.vercel"
+description = "Vercel CLI build output"
+risk = "safe"
+restore = "Rebuilt on next `vercel build`"
+
+[[targets]]
+path = "**/.serverless"
+description = "Serverless Framework packaged artifacts"
+risk = "safe"
+restore = "Rebuilt on next `serverless deploy`"
+
+[[targets]]
+path = "**/.sass-cache"
+description = "Legacy node-sass compilation cache"
+risk = "safe"
+restore = "Rebuilt on next build"
+
+[[targets]]
+path = "**/.nyc_output"
+description = "NYC coverage intermediate data"
+risk = "safe"
+restore = "Rebuilt on next test run"

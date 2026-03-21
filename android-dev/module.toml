@@ -1,18 +1,36 @@
 id = "android-dev"
 name = "Android Development Caches"
 version = "1.0.0"
-description = "Android SDK caches and emulator images. Safe to delete; re-downloaded when needed."
+description = "Android SDK caches, build caches, and emulator system images."
 author = "freespace"
 platforms = ["macos", "linux"]
 
 [[targets]]
 path = "~/.android/cache"
 description = "Android SDK manager cache"
+risk = "safe"
+restore = "Rebuilt on next SDK operation"
 
 [[targets]]
 path = "~/.android/build-cache"
 description = "Android build cache"
+risk = "safe"
+restore = "Rebuilt on next build"
 
 [[targets]]
 path = "~/Library/Android/sdk/system-images"
 description = "Android emulator system images (macOS)"
+risk = "low"
+restore = "Re-downloaded via Android SDK Manager"
+
+[[targets]]
+path = "~/Library/Android/sdk/.temp"
+description = "Temporary SDK download files"
+risk = "safe"
+restore = "Re-created as needed"
+
+[[targets]]
+path = "~/Library/Android/sdk/.downloadIntermediates"
+description = "Intermediate SDK downloads"
+risk = "safe"
+restore = "Re-created as needed"

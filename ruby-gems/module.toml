@@ -1,10 +1,19 @@
 id = "ruby-gems"
 name = "Ruby Gem Cache"
 version = "1.0.0"
-description = "Ruby gem installations and cache. Safe to delete; gems are re-installed on next bundle install."
+description = "Ruby gem installations and cache"
 author = "freespace"
 platforms = ["macos", "linux"]
 
 [[targets]]
 path = "~/.gem"
 description = "User-installed Ruby gems"
+risk = "low"
+restore = "Run `gem install` or `bundle install`"
+
+[[targets]]
+path = "~/.bundle/cache"
+description = "Bundler gem cache"
+risk = "safe"
+restore = "Re-downloaded on next `bundle install`"
+

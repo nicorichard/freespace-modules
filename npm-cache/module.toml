@@ -1,18 +1,24 @@
 id = "npm-cache"
 name = "Node Package Caches"
 version = "1.0.0"
-description = "Cached packages from npm, Yarn, and pnpm. Safe to delete; packages are re-downloaded on next install."
+description = "Cached packages from npm, Yarn, and pnpm"
 author = "freespace"
 platforms = ["macos", "linux"]
 
 [[targets]]
 path = "~/.npm/_cacache"
 description = "npm download cache"
+risk = "safe"
+restore = "Re-downloaded on next `npm install`"
 
 [[targets]]
 path = "~/.yarn/cache"
 description = "Yarn berry cache directory"
+risk = "safe"
+restore = "Re-downloaded on next `yarn install`"
 
 [[targets]]
 path = "~/.local/share/pnpm/store"
 description = "pnpm content-addressable store"
+risk = "safe"
+restore = "Re-downloaded on next `pnpm install`"
