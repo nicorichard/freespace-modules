@@ -9,4 +9,5 @@ platforms = ["macos", "linux"]
 path = "**/node_modules"
 description = "Node.js dependencies"
 risk = "low"
-restore = "Run `npm install`, `yarn install`, or `pnpm install`"
+restore = "manual"
+restore_steps = "Run `npm install`, `yarn install`, or `pnpm install`"

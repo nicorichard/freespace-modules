@@ -9,88 +9,88 @@ platforms = ["macos", "linux"]
 path = "~/.cache/pip"
 description = "pip download cache"
 risk = "safe"
-restore = "Re-downloaded on next `pip install`"
+restore = "auto"
 
 [[targets]]
 path = "~/.conda/pkgs"
 description = "Conda package tarballs"
 risk = "safe"
-restore = "Re-downloaded on next `conda install`"
+restore = "auto"
 
 [[targets]]
 path = "~/.cache/huggingface"
 description = "HuggingFace model cache"
 risk = "safe"
-restore = "Re-downloaded on next model load"
+restore = "auto"
 
 [[targets]]
 path = "~/.cache/torch"
 description = "PyTorch hub model cache"
 risk = "safe"
-restore = "Re-downloaded on next model load"
+restore = "auto"
 
 [[targets]]
 path = "~/.keras/models"
 description = "Keras pre-trained model cache"
 risk = "safe"
-restore = "Re-downloaded on next model load"
+restore = "auto"
 
 [[targets]]
 path = "~/Library/Jupyter/runtime"
 description = "Jupyter runtime files"
 risk = "safe"
-restore = "Re-created on next Jupyter launch"
+restore = "auto"
 
 [[targets]]
 path = "**/__pycache__"
 description = "Python bytecode cache"
 risk = "safe"
-restore = "Rebuilt automatically on next import"
+restore = "auto"
 
 [[targets]]
 path = "**/.mypy_cache"
 description = "mypy type-checker cache"
 risk = "safe"
-restore = "Rebuilt on next `mypy` run"
+restore = "auto"
 
 [[targets]]
 path = "**/.ruff_cache"
 description = "Ruff linter cache"
 risk = "safe"
-restore = "Rebuilt on next `ruff` run"
+restore = "auto"
 
 [[targets]]
 path = "**/.pytest_cache"
 description = "pytest cache"
 risk = "safe"
-restore = "Rebuilt on next `pytest` run"
+restore = "auto"
 
 [[targets]]
 path = "**/.tox"
 description = "tox test virtualenvs"
 risk = "safe"
-restore = "Rebuilt on next `tox` run"
+restore = "auto"
 
 [[targets]]
 path = "**/.nox"
 description = "nox session virtualenvs"
 risk = "safe"
-restore = "Rebuilt on next `nox` run"
+restore = "auto"
 
 [[targets]]
 path = "**/.eggs"
 description = "Setuptools egg build cache"
 risk = "safe"
-restore = "Rebuilt on next `setup.py` run"
+restore = "auto"
 
 [[targets]]
 path = "**/.pytype"
 description = "Pytype type checker cache"
 risk = "safe"
-restore = "Rebuilt on next `pytype` run"
+restore = "auto"
 
 [[targets]]
 path = "**/.pyre"
 description = "Pyre type checker cache"
 risk = "safe"
-restore = "Rebuilt on next `pyre` run"
+restore = "auto"

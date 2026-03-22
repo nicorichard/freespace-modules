@@ -9,28 +9,28 @@ platforms = ["macos", "linux"]
 path = "~/.stack"
 description = "Stack package database and snapshots"
 risk = "safe"
-restore = "Rebuilt on next `stack build`"
+restore = "auto"
 
 [[targets]]
 path = "~/.cabal"
 description = "Cabal package store and download cache"
 risk = "safe"
-restore = "Rebuilt on next `cabal build`"
+restore = "auto"
 
 [[targets]]
 path = "~/.ghc"
 description = "GHC compiler caches and settings"
 risk = "safe"
-restore = "Rebuilt on next GHC use"
+restore = "auto"
 
 [[targets]]
 path = "**/.stack-work"
 description = "Stack project-local build output"
 risk = "safe"
-restore = "Rebuilt by `stack build`"
+restore = "auto"
 
 [[targets]]
 path = "**/dist-newstyle"
 description = "Cabal new-build output"
 risk = "safe"
-restore = "Rebuilt by `cabal build`"
+restore = "auto"

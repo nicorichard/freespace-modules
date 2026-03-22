@@ -9,4 +9,4 @@ platforms = ["macos"]
 path = "~/Library/Application Support/Epic/EpicGamesLauncher/Saved"
 description = "Epic Games Launcher saved data and cache"
 risk = "safe"
-restore = "Rebuilt on next Epic Games launch"
+restore = "auto"

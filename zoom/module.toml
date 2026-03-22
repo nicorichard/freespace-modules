@@ -9,10 +9,10 @@ platforms = ["macos"]
 path = "~/Library/Application Support/zoom.us/data"
 description = "Zoom cached meeting data"
 risk = "safe"
-restore = "Rebuilt on next Zoom launch"
+restore = "auto"
 
 [[targets]]
 path = "~/Library/Application Support/zoom.us/AutoUpdater"
 description = "Zoom update downloads"
 risk = "safe"
-restore = "Re-downloaded on next update"
+restore = "auto"

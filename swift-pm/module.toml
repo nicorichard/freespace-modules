@@ -9,10 +9,10 @@ platforms = ["macos", "linux"]
 path = "~/.cache/org.swift.swiftpm"
 description = "Swift PM repository and manifest cache"
 risk = "safe"
-restore = "Re-downloaded on next build"
+restore = "auto"
 
 [[targets]]
 path = "~/Library/Caches/org.swift.swiftpm"
 description = "Swift PM security and collections data (macOS)"
 risk = "safe"
-restore = "Re-downloaded on next build"
+restore = "auto"

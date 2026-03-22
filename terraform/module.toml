@@ -9,4 +9,4 @@ platforms = ["macos", "linux"]
 path = "~/.terraform/plugin-cache"
 description = "Terraform provider plugin cache"
 risk = "safe"
-restore = "Re-downloaded by `terraform init`"
+restore = "auto"

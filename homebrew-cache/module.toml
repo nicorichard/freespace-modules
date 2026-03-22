@@ -9,4 +9,4 @@ platforms = ["macos"]
 path = "~/Library/Caches/Homebrew/*"
 description = "Homebrew cached downloads and bottle files"
 risk = "safe"
-restore = "Re-downloaded by Homebrew as needed"
+restore = "auto"

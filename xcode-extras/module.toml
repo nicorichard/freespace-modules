@@ -9,59 +9,62 @@ platforms = ["macos"]
 path = "~/Library/Developer/Xcode/Archives"
 description = "Xcode build archives (may contain App Store submissions)"
 risk = "medium"
-restore = "Review before deleting — may contain App Store submissions"
+restore = "manual"
+restore_steps = "Review before deleting — may contain App Store submissions"
 
 [[targets]]
 path = "~/Library/Developer/CoreSimulator/Caches"
 description = "iOS/watchOS/tvOS simulator caches"
 risk = "safe"
-restore = "Rebuilt on next simulator launch"
+restore = "auto"
 
 [[targets]]
 path = "~/Library/Developer/Xcode/iOS Device Logs"
 description = "Logs from connected iOS devices"
 risk = "safe"
-restore = "Re-created as needed"
+restore = "auto"
 
 [[targets]]
 path = "~/Library/Developer/Xcode/watchOS Device Logs"
 description = "Logs from connected watchOS devices"
 risk = "safe"
-restore = "Re-created as needed"
+restore = "auto"
 
 [[targets]]
 path = "~/Library/Caches/CocoaPods"
 description = "CocoaPods spec and download cache"
 risk = "safe"
-restore = "Re-downloaded on next `pod install`"
+restore = "auto"
 
 [[targets]]
 path = "~/Library/Developer/CoreSimulator/Devices"
 description = "iOS/watchOS/tvOS simulator device images"
 risk = "medium"
-restore = "Re-downloaded from Apple; review active simulators first"
+restore = "manual"
+restore_steps = "Re-download from Apple; review active simulators first"
 
 [[targets]]
 path = "~/Library/Developer/CoreSimulator/Runtime"
 description = "Simulator runtime images"
 risk = "medium"
-restore = "Re-downloaded from Apple via Xcode"
+restore = "manual"
+restore_steps = "Re-download from Apple via Xcode"
 
 [[targets]]
 path = "~/Library/Developer/Xcode/UserData/IB Support"
 description = "Interface Builder support caches"
 risk = "safe"
-restore = "Rebuilt on next Xcode launch"
+restore = "auto"
 
 [[targets]]
 path = "~/Library/Developer/Xcode/Products"
 description = "Old product archives"
 risk = "safe"
-restore = "Rebuilt on next archive"
+restore = "auto"
 
 [[targets]]
 path = "**/Pods"
 description = "CocoaPods installed dependencies (project-local)"
 risk = "low"
-restore = "Run `pod install` in the project directory"
-
+restore = "manual"
+restore_steps = "Run `pod install` in the project directory"

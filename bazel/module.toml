@@ -9,10 +9,10 @@ platforms = ["macos", "linux"]
 path = "~/.cache/bazel"
 description = "Bazel build cache"
 risk = "safe"
-restore = "Rebuilt on next `bazel build`"
+restore = "auto"
 
 [[targets]]
 path = "~/.bazel/cache"
 description = "Bazel output and remote cache"
 risk = "safe"
-restore = "Rebuilt on next `bazel build`"
+restore = "auto"

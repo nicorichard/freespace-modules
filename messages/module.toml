@@ -9,4 +9,5 @@ platforms = ["macos"]
 path = "~/Library/Messages/Attachments"
 description = "iMessage photo, video, and file attachments"
 risk = "medium"
-restore = "Review contents before deleting — not re-downloaded if removed from iCloud"
+restore = "manual"
+restore_steps = "Review contents before deleting — not re-downloaded if removed from iCloud"

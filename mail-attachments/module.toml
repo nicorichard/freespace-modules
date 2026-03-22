@@ -9,4 +9,4 @@ platforms = ["macos"]
 path = "~/Library/Containers/com.apple.mail/Data/Library/Mail Downloads"
 description = "Mail attachment downloads"
 risk = "safe"
-restore = "Re-downloaded from mail server when attachment is opened again"
+restore = "auto"

@@ -9,10 +9,10 @@ platforms = ["macos", "linux"]
 path = "~/Library/Caches/*"
 description = "macOS application caches"
 risk = "safe"
-restore = "Rebuilt by applications as needed"
+restore = "auto"
 
 [[targets]]
 path = "~/.cache/*"
 description = "XDG cache directory (Linux and some macOS apps)"
 risk = "safe"
-restore = "Rebuilt by applications as needed"
+restore = "auto"

@@ -9,22 +9,22 @@ platforms = ["macos"]
 path = "~/Library/Metadata/CoreSpotlight"
 description = "CoreSpotlight index data (can balloon to 100+ GB if corrupted)"
 risk = "medium"
-restore = "Reindexes automatically on delete; may take hours"
+restore = "auto"
 
 [[targets]]
 path = "~/Library/Containers/com.apple.mediaanalysisd/Data/Library/Caches"
 description = "Media analysis daemon cache (photo/video ML)"
 risk = "safe"
-restore = "Rebuilt automatically"
+restore = "auto"
 
 [[targets]]
 path = "~/Library/Application Support/coreMLCache"
 description = "CoreML compiled model cache"
 risk = "safe"
-restore = "Rebuilt automatically on demand"
+restore = "auto"
 
 [[targets]]
 path = "~/Library/Containers/com.apple.Photos/Data/Library/Caches"
 description = "Photos analysis and face recognition cache"
 risk = "safe"
-restore = "Rebuilt automatically"
+restore = "auto"

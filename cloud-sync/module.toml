@@ -9,10 +9,10 @@ platforms = ["macos"]
 path = "~/Library/Application Support/Google/DriveFS/caches"
 description = "Google Drive File Stream cache"
 risk = "safe"
-restore = "Re-downloaded on demand"
+restore = "auto"
 
 [[targets]]
 path = "~/.dropbox/cache"
 description = "Dropbox sync cache"
 risk = "safe"
-restore = "Rebuilt on next Dropbox sync"
+restore = "auto"

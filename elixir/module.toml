@@ -9,12 +9,11 @@ platforms = ["macos", "linux"]
 path = "~/.hex/packages"
 description = "Hex package download cache"
 risk = "safe"
-restore = "Re-downloaded on next `mix deps.get`"
+restore = "auto"
 
 [[targets]]
 path = "~/Library/Caches/mix/installs"
 description = "Mix archive and escript installs cache"
 risk = "safe"
-restore = "Re-downloaded on next install"
+restore = "auto"
 platforms = ["macos"]
-

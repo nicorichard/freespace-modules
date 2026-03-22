@@ -9,10 +9,10 @@ platforms = ["macos"]
 path = "~/Library/Unity/Asset Store-5.x"
 description = "Unity Asset Store download cache"
 risk = "safe"
-restore = "Re-downloaded from Asset Store"
+restore = "auto"
 
 [[targets]]
 path = "~/Library/Unity/cache"
 description = "Unity Editor global cache"
 risk = "safe"
-restore = "Rebuilt on next Unity launch"
+restore = "auto"

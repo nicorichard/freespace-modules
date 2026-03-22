@@ -9,4 +9,5 @@ platforms = ["macos"]
 path = "~/Library/Application Support/MobileSync/Backup/*"
 description = "iTunes/Finder device backups (can be tens of GB each)"
 risk = "high"
-restore = "Cannot be restored — ensure iCloud backup is enabled before deleting"
+restore = "manual"
+restore_steps = "Cannot be restored — ensure iCloud backup is enabled before deleting"

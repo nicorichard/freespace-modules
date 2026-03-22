@@ -9,10 +9,10 @@ platforms = ["macos", "linux"]
 path = "~/.ccache"
 description = "ccache compilation cache"
 risk = "safe"
-restore = "Rebuilt on next C/C++ build"
+restore = "auto"
 
 [[targets]]
 path = "~/.cache/sccache"
 description = "sccache compilation cache"
 risk = "safe"
-restore = "Rebuilt on next build"
+restore = "auto"

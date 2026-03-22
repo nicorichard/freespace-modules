@@ -9,16 +9,16 @@ platforms = ["macos", "linux"]
 path = "~/.conan2"
 description = "Conan 2.x package cache"
 risk = "safe"
-restore = "Re-downloaded on next `conan install`"
+restore = "auto"
 
 [[targets]]
 path = "~/.conan"
 description = "Conan 1.x package cache (legacy)"
 risk = "safe"
-restore = "Re-downloaded on next `conan install`"
+restore = "auto"
 
 [[targets]]
 path = "~/.cache/vcpkg"
 description = "vcpkg binary cache"
 risk = "safe"
-restore = "Re-downloaded on next `vcpkg install`"
+restore = "auto"

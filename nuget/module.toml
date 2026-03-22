@@ -9,4 +9,4 @@ platforms = ["macos", "linux"]
 path = "~/.nuget/packages"
 description = "NuGet global package cache"
 risk = "safe"
-restore = "Re-downloaded on next `dotnet restore`"
+restore = "auto"

@@ -9,10 +9,10 @@ platforms = ["macos", "linux"]
 path = "**/.build"
 description = "Swift build artifacts directory"
 risk = "safe"
-restore = "Rebuilt by `swift build`"
+restore = "auto"
 
 [[targets]]
 path = "**/.swiftpm"
 description = "Per-project Swift PM workspace state"
 risk = "safe"
-restore = "Rebuilt by `swift package resolve`"
+restore = "auto"

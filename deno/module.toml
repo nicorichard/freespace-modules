@@ -9,4 +9,4 @@ platforms = ["macos", "linux"]
 path = "~/.deno/npm"
 description = "Deno npm compatibility cache"
 risk = "safe"
-restore = "Re-downloaded on next `deno` run"
+restore = "auto"

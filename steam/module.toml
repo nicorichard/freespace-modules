@@ -9,52 +9,52 @@ platforms = ["macos", "linux"]
 path = "~/Library/Application Support/Steam/appcache"
 description = "Steam app metadata cache (macOS)"
 risk = "safe"
-restore = "Rebuilt on next Steam launch"
+restore = "auto"
 
 [[targets]]
 path = "~/Library/Application Support/Steam/depotcache"
 description = "Steam depot cache (macOS)"
 risk = "safe"
-restore = "Rebuilt on next Steam launch"
+restore = "auto"
 
 [[targets]]
 path = "~/Library/Application Support/Steam/logs"
 description = "Steam client logs (macOS)"
 risk = "safe"
-restore = "Re-created as needed"
+restore = "auto"
 
 [[targets]]
 path = "~/Library/Application Support/Steam/steamapps/shadercache"
 description = "Steam shader cache (macOS)"
 risk = "safe"
-restore = "Rebuilt on next game launch"
+restore = "auto"
 
 [[targets]]
 path = "~/Library/Application Support/Steam/steamapps/temp"
 description = "Steam temporary download files (macOS)"
 risk = "safe"
-restore = "Re-created as needed"
+restore = "auto"
 
 [[targets]]
 path = "~/Library/Application Support/Steam/steamapps/downloading"
 description = "Interrupted Steam download files"
 risk = "safe"
-restore = "Re-created as needed"
+restore = "auto"
 
 [[targets]]
 path = "~/.steam/steam/appcache"
 description = "Steam app metadata cache (Linux)"
 risk = "safe"
-restore = "Rebuilt on next Steam launch"
+restore = "auto"
 
 [[targets]]
 path = "~/.steam/steam/depotcache"
 description = "Steam depot cache (Linux)"
 risk = "safe"
-restore = "Rebuilt on next Steam launch"
+restore = "auto"
 
 [[targets]]
 path = "~/.steam/steam/logs"
 description = "Steam client logs (Linux)"
 risk = "safe"
-restore = "Re-created as needed"
+restore = "auto"

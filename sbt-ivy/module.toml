@@ -9,16 +9,16 @@ platforms = ["macos", "linux"]
 path = "~/.sbt/boot"
 description = "SBT bootstrap compiler downloads"
 risk = "safe"
-restore = "Re-downloaded on next `sbt` run"
+restore = "auto"
 
 [[targets]]
 path = "~/.sbt/preloaded"
 description = "SBT preloaded library cache"
 risk = "safe"
-restore = "Re-downloaded on next `sbt` run"
+restore = "auto"
 
 [[targets]]
 path = "~/.ivy2/cache"
 description = "Apache Ivy dependency cache"
 risk = "safe"
-restore = "Re-downloaded on next build"
+restore = "auto"

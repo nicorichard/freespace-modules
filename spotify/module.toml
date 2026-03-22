@@ -9,4 +9,4 @@ platforms = ["macos"]
 path = "~/Library/Application Support/Spotify/PersistentCache"
 description = "Spotify offline music cache"
 risk = "safe"
-restore = "Music re-streamed on demand"
+restore = "auto"

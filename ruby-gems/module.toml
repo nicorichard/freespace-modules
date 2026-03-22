@@ -9,11 +9,11 @@ platforms = ["macos", "linux"]
 path = "~/.gem"
 description = "User-installed Ruby gems"
 risk = "low"
-restore = "Run `gem install` or `bundle install`"
+restore = "manual"
+restore_steps = "Run `gem install` or `bundle install`"
 
 [[targets]]
 path = "~/.bundle/cache"
 description = "Bundler gem cache"
 risk = "safe"
-restore = "Re-downloaded on next `bundle install`"
-
+restore = "auto"

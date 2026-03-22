@@ -9,22 +9,22 @@ platforms = ["macos"]
 path = "~/Library/Application Support/Microsoft/Teams/Cache"
 description = "Teams classic cache"
 risk = "safe"
-restore = "Rebuilt on next Teams launch"
+restore = "auto"
 
 [[targets]]
 path = "~/Library/Application Support/Microsoft/Teams/Service Worker/CacheStorage"
 description = "Teams classic service worker cache"
 risk = "safe"
-restore = "Rebuilt on next Teams launch"
+restore = "auto"
 
 [[targets]]
 path = "~/Library/Containers/com.microsoft.teams2/Data/Library/Caches"
 description = "New Teams cache"
 risk = "safe"
-restore = "Rebuilt on next Teams launch"
+restore = "auto"
 
 [[targets]]
 path = "~/Library/Containers/com.microsoft.teams2/Data/tmp"
 description = "New Teams temp files"
 risk = "safe"
-restore = "Re-created as needed"
+restore = "auto"

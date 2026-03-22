@@ -9,22 +9,22 @@ platforms = ["macos", "linux"]
 path = "~/.kube/cache"
 description = "kubectl API discovery and HTTP cache"
 risk = "safe"
-restore = "Rebuilt on next kubectl command"
+restore = "auto"
 
 [[targets]]
 path = "~/.aws/cli/cache"
 description = "AWS CLI credential and API cache"
 risk = "safe"
-restore = "Rebuilt on next AWS CLI command"
+restore = "auto"
 
 [[targets]]
 path = "~/.config/gcloud/logs"
 description = "Google Cloud CLI logs"
 risk = "safe"
-restore = "Re-created as needed"
+restore = "auto"
 
 [[targets]]
 path = "~/.azure/logs"
 description = "Azure CLI logs"
 risk = "safe"
-restore = "Re-created as needed"
+restore = "auto"

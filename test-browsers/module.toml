@@ -9,32 +9,36 @@ platforms = ["macos", "linux"]
 path = "~/Library/Caches/Cypress"
 description = "Cypress browser downloads"
 risk = "safe"
-restore = "Re-downloaded by `cypress install`"
+restore = "manual"
+restore_steps = "Run `cypress install`"
 platforms = ["macos"]
 
 [[targets]]
 path = "~/.cache/Cypress"
 description = "Cypress browser downloads"
 risk = "safe"
-restore = "Re-downloaded by `cypress install`"
+restore = "manual"
+restore_steps = "Run `cypress install`"
 platforms = ["linux"]
 
 [[targets]]
 path = "~/Library/Caches/ms-playwright"
 description = "Playwright browser downloads"
 risk = "safe"
-restore = "Re-downloaded by `playwright install`"
+restore = "manual"
+restore_steps = "Run `playwright install`"
 platforms = ["macos"]
 
 [[targets]]
 path = "~/.cache/ms-playwright"
 description = "Playwright browser downloads"
 risk = "safe"
-restore = "Re-downloaded by `playwright install`"
+restore = "manual"
+restore_steps = "Run `playwright install`"
 platforms = ["linux"]
 
 [[targets]]
 path = "~/.cache/puppeteer"
 description = "Puppeteer Chromium downloads"
 risk = "safe"
-restore = "Re-downloaded by Puppeteer on next run"
+restore = "auto"

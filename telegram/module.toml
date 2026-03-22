@@ -9,10 +9,10 @@ platforms = ["macos"]
 path = "~/Library/Group Containers/*.keepcoder.Telegram/*/postbox/media"
 description = "Telegram downloaded media files"
 risk = "low"
-restore = "Re-downloaded on demand via Telegram"
+restore = "auto"
 
 [[targets]]
 path = "~/Library/Caches/ru.keepcoder.Telegram"
 description = "Telegram general cache"
 risk = "safe"
-restore = "Rebuilt on next Telegram launch"
+restore = "auto"

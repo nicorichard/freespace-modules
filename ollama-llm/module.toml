@@ -9,10 +9,12 @@ platforms = ["macos", "linux"]
 path = "~/.ollama/models"
 description = "Ollama LLM model files"
 risk = "low"
-restore = "Re-downloaded by `ollama pull`"
+restore = "manual"
+restore_steps = "Run `ollama pull <model>` for each model you need"
 
 [[targets]]
 path = "~/.cache/lm-studio"
 description = "LM Studio downloaded model files"
 risk = "low"
-restore = "Re-downloaded via LM Studio"
+restore = "manual"
+restore_steps = "Re-download models via LM Studio"
