@@ -4,6 +4,7 @@ version = "1.0.0"
 description = "Browser-specific caches stored outside ~/Library/Caches."
 author = "freespace"
 platforms = ["macos"]
+icon = ""
 
 [[targets]]
 path = "~/Library/Application Support/Google/Chrome/Default/Service Worker/CacheStorage"

@@ -4,6 +4,7 @@ version = "1.0.0"
 description = "Java/Kotlin build tool caches."
 author = "freespace"
 platforms = ["macos", "linux"]
+icon = ""
 
 [[targets]]
 path = "~/.gradle/caches"

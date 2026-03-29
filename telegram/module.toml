@@ -4,6 +4,7 @@ version = "1.0.0"
 description = "Telegram downloaded media and caches. Media can grow to 100+ GB."
 author = "freespace"
 platforms = ["macos"]
+icon = ""
 
 [[targets]]
 path = "~/Library/Group Containers/*.keepcoder.Telegram/*/postbox/media"

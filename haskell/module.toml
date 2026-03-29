@@ -4,6 +4,8 @@ version = "1.0.0"
 description = "Stack, Cabal, and GHC caches and project-local build artifacts."
 author = "freespace"
 platforms = ["macos", "linux"]
+icon = ""
+icon_color = "#5D4F85"
 
 [[targets]]
 path = "~/.stack"

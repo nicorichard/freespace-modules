@@ -4,6 +4,8 @@ version = "1.0.0"
 description = "Cargo registry cache, git checkouts, and Rustup downloads."
 author = "freespace"
 platforms = ["macos", "linux"]
+icon = ""
+icon_color = "#CE422B"
 
 [[targets]]
 path = "~/.cargo/registry/cache"

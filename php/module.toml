@@ -4,6 +4,8 @@ version = "1.0.0"
 description = "Composer package download cache."
 author = "freespace"
 platforms = ["macos", "linux"]
+icon = ""
+icon_color = "#777BB4"
 
 [[targets]]
 path = "~/.composer/cache"

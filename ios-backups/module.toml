@@ -4,6 +4,7 @@ version = "1.0.0"
 description = "Local iOS/iPadOS device backups."
 author = "freespace"
 platforms = ["macos"]
+icon = ""
 
 [[targets]]
 path = "~/Library/Application Support/MobileSync/Backup/*"

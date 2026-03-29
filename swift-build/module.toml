@@ -4,6 +4,8 @@ version = "1.0.0"
 description = "Project-local Swift build artifacts"
 author = "freespace"
 platforms = ["macos", "linux"]
+icon = ""
+icon_color = "#F05138"
 
 [[targets]]
 path = "**/.build"

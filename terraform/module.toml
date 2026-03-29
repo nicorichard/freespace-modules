@@ -4,6 +4,8 @@ version = "1.0.0"
 description = "Terraform provider plugin cache."
 author = "freespace"
 platforms = ["macos", "linux"]
+icon = ""
+icon_color = "#7B42BC"
 
 [[targets]]
 path = "~/.terraform/plugin-cache"

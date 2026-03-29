@@ -4,6 +4,8 @@ version = "1.0.0"
 description = "Kotlin compiler and Kotlin/Native caches"
 author = "freespace"
 platforms = ["macos", "linux"]
+icon = ""
+icon_color = "#7F52FF"
 
 [[targets]]
 path = "~/.konan/cache"

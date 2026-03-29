@@ -4,6 +4,8 @@ version = "1.0.0"
 description = "Disk images and build caches for Docker Desktop, Colima, OrbStack, and Minikube."
 author = "freespace"
 platforms = ["macos", "linux"]
+icon = ""
+icon_color = "#2496ED"
 
 [[targets]]
 path = "~/Library/Containers/com.docker.docker/Data/vms/0/data"

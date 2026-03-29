@@ -4,6 +4,7 @@ version = "1.0.0"
 description = "Unity Editor global caches and Asset Store downloads."
 author = "freespace"
 platforms = ["macos"]
+icon = ""
 
 [[targets]]
 path = "~/Library/Unity/Asset Store-5.x"

@@ -4,6 +4,7 @@ version = "1.0.0"
 description = "Additional macOS system caches and index data outside ~/Library/Caches."
 author = "freespace"
 platforms = ["macos"]
+icon = ""
 
 [[targets]]
 path = "~/Library/Metadata/CoreSpotlight"

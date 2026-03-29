@@ -4,6 +4,7 @@ version = "1.0.0"
 description = "Steam client caches, shader caches, and temp downloads"
 author = "freespace"
 platforms = ["macos", "linux"]
+icon = ""
 
 [[targets]]
 path = "~/Library/Application Support/Steam/appcache"

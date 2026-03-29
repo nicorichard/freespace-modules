@@ -4,6 +4,8 @@ version = "1.0.0"
 description = "Hex package cache and project-local Mix build artifacts."
 author = "freespace"
 platforms = ["macos", "linux"]
+icon = ""
+icon_color = "#4B275F"
 
 [[targets]]
 path = "~/.hex/packages"

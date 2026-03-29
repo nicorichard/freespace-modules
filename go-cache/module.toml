@@ -4,6 +4,8 @@ version = "1.0.0"
 description = "Go module downloads and build cache."
 author = "freespace"
 platforms = ["macos", "linux"]
+icon = ""
+icon_color = "#00ADD8"
 
 [[targets]]
 path = "~/go/pkg/mod/cache"

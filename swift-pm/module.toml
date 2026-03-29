@@ -4,6 +4,8 @@ version = "1.0.0"
 description = "Swift Package Manager build and repository cache"
 author = "freespace"
 platforms = ["macos", "linux"]
+icon = ""
+icon_color = "#F05138"
 
 [[targets]]
 path = "~/.cache/org.swift.swiftpm"

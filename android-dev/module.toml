@@ -4,6 +4,8 @@ version = "1.0.0"
 description = "Android SDK caches, build caches, and emulator system images."
 author = "freespace"
 platforms = ["macos", "linux"]
+icon = ""
+icon_color = "#3DDC84"
 
 [[targets]]
 path = "~/.android/cache"

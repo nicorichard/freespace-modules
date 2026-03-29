@@ -4,6 +4,7 @@ version = "1.0.0"
 description = "Dart pub package cache and Flutter engine artifacts."
 author = "freespace"
 platforms = ["macos", "linux"]
+icon = ""
 
 [[targets]]
 path = "~/.pub-cache/hosted"

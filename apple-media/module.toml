@@ -4,6 +4,7 @@ version = "1.0.0"
 description = "Caches from Apple Music, Podcasts, TV+, and other media apps."
 author = "freespace"
 platforms = ["macos"]
+icon = ""
 
 [[targets]]
 path = "~/Library/Group Containers/*.music/Library/Caches"

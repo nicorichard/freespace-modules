@@ -4,6 +4,8 @@ version = "1.0.0"
 description = "Cached packages from npm, Yarn, and pnpm"
 author = "freespace"
 platforms = ["macos", "linux"]
+icon = ""
+icon_color = "#339933"
 
 [[targets]]
 path = "~/.npm/_cacache"

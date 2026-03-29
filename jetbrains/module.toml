@@ -1,9 +1,10 @@
-id = "jetbrains-logs"
+id = "jetbrains"
 name = "JetBrains IDE Caches"
 version = "1.0.0"
 description = "JetBrains IDE logs, caches, indexes, and temp files."
 author = "freespace"
 platforms = ["macos", "linux"]
+icon = ""
 
 [[targets]]
 path = "~/Library/Logs/JetBrains"

@@ -4,6 +4,7 @@ version = "1.0.0"
 description = "Caches from Electron-based apps stored outside ~/Library/Caches. Rebuilt on next app launch."
 author = "freespace"
 platforms = ["macos"]
+icon = ""
 
 [[targets]]
 path = "~/Library/Application Support/Code/Cache"

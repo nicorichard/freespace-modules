@@ -4,6 +4,7 @@ version = "1.0.0"
 description = "Xcode archives, simulator caches, device logs, and dependency managers"
 author = "freespace"
 platforms = ["macos"]
+icon = ""
 
 [[targets]]
 path = "~/Library/Developer/Xcode/Archives"

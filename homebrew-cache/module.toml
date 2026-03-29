@@ -4,6 +4,7 @@ version = "1.0.0"
 description = "Cached Homebrew downloads and bottles."
 author = "freespace"
 platforms = ["macos"]
+icon = ""
 
 [[targets]]
 path = "~/Library/Caches/Homebrew/*"
